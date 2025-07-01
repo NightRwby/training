@@ -12,4 +12,4 @@
 10 dev branch 에서 aaa.txt 내용 추가 -> commit(V0.4 by dev)
 11 feature branch 에서 aaa.txt 내용 추가 -> commit(V0.4 feature)
 12 Conflict 해결 이후 dev에 병합
-13 dev 내용 master에 병합
+13 dev 내용 master에 병합 
