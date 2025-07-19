@@ -57,42 +57,129 @@
             height: 320px;
         }
 
-        .content_area1 {
-            background-color: rgb(119, 109, 20);
-            width: auto;
-            height: 334px;
-        }
-
-        .content_area2 {
-            background-color: rgb(18, 128, 14);
+        .content_download {
+            background-color: rgb(255, 255, 255);
             width: 1920px;
-            height: 330.38px;
+            height: 80px;
+        }
+        .content_download>div {
+            display: flex;
+            width: 1280px;
+            height: 80px;
+            margin: auto;
+        }
+        .content_download>div>a {
+            background-color: rgb(0,44,95);
+            width: 160px;
+            height: 40px;
+            margin: auto;
+            font-size: 13;
+            color: white;
+            text-align: center;
+            line-height: 40px;
+            
         }
 
-        .content_area3 {
-            background-color: rgb(14, 80, 100);
+        .content_CardTitle {
+            width: 1920px;
+            height: 120px;
+        }
+        .content_CardTitle>div {
+            width: 1280px;
+            
+            margin: 0 auto;
+            display: flex;
+            padding-top: 70px;
+            padding-left: 70px;
+            position: relative;
+        }
+        .content_CardTitle>div>span {
+            display: block;
+            height: 14px;
+            margin-left: 10px;
+            color: rgb(43,43,43);
+            font-size: 20px;
+            font-weight: bolder;
+        }
+        .content_Card_Top {
+            width: 1920px;
+            height: 480px;
+            display: flex;
+            justify-content: center;
+            padding-bottom: 80px;
+        }
+        .content_Card_Top>div {
+            background-image: url(https://www.hyundai.com/content/dam/hyundai/kr/ko/images/customer-service/bluehands/bluehands-franchise-business-pc-04.jpg);
+            background-size: cover;
+            width: 1120px;
+            height: 400px;
+        }
+        .content_Card_Bottom {
+            width: 1920px;
+            height: 827px;
+            display: flex;
+            justify-content: center;
+            padding-bottom: 80px;
+        }
+        .content_Card_Bottom>div {
+            background-image: url(https://www.hyundai.com/content/dam/hyundai/kr/ko/images/customer-service/bluehands/bluehands-franchise-business-pc-04-02.jpg);
+            background-size: cover;
+            width: 1120px;
+            height: 747px;
+        }
+
+        .content_prevnext{
+            background-color: rgb(228,220,211);
+            width: 1920px;
+            height: 160px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .content_prevnext>.nextbar{
+            width: 1120px;
+            height: 160px;
+            padding: 64px 0;
+            display: flex;
+            justify-content: space-between;
+        }
+        .content_prevnext>.nextbar>a{
+            display: flex;
+            font-size: 29px;
+            font-weight: bold;
+            line-height: 1;
+            gap: 10px;
+            align-items: center;
+            color: black;
+        }
+        .content_prevnext>.nextbar>a>span{
+            font-size: 18px;
+            font-weight: bold;
+            
+        }
+        .content_prevnext>.nextbar>a:nth-child(1){
+            width: 288px;
+            height: 31px;
+            padding-right: 5px;
+            
+        }
+        .content_prevnext>.nextbar>a:nth-child(2){
+            text-align: end;
+            width: 237px;
+            height: 31px;
+        }
+
+        .content_whitebar {
+            background-color: white;
             width: 1920px;
             height: 120px;
         }
 
-        .content_area4 {
-            background-color: rgb(113, 31, 116);
+        .footer {
+            background-color: rgb(199, 113, 33);
             width: 1920px;
-            height: 60px;
+            height: 158.28px;
         }
-
-        .content_area5 {
-            background-color: khaki;
-            width: 1920px;
-            height: 479px;
-        }
-
-        .content_area6 {
-            background-color: rgb(37, 173, 105);
-            width: 1920px;
-            height: 827px;
-        }
-
         .content_area7 {
             background-color: rgb(199, 113, 33);
             width: 1920px;
@@ -130,11 +217,31 @@
                     <div class="title_bottom_center"></div>
                 </div>
             </div>
-            <div class="content_area1"></div>
-            <div class="content_area2"></div>
-            <div class="content_area3"></div>
-            <div class="content_area4"></div>
-            <div class="content_area5"></div>
+            <div class="content_download">
+                <div>
+                    <a href="">정보공개서 다운로드</a>
+                </div>
+            </div>
+            <div class="content_CardTitle">
+                <div>
+                    <span>블루핸즈 가맹 유형</span>
+                </div>
+            </div>
+            <div class="content_Card_Top">
+                <div>
+                </div>
+            </div>
+            <div class="content_Card_Bottom">
+                <div>
+                </div>
+            </div>
+            <div class="content_prevnext">
+                <div class="nextbar">
+                    <a href="javascript:void(0)"><span>≪</span>서비스 네트워크 찾기</a>
+                    <a href="javascript:void(0)">가맹점 개설 안내<span>≫</span></a>
+                </div>
+            </div>
+            <div class="content_whitebar"></div>
             <div class="content_area6"></div>
             <div class="content_area7"></div>
             <div class="content_area8"></div>
